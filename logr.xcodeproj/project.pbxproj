@@ -8,12 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		04CE50952856415300E04B10 /* logrApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CE50942856415300E04B10 /* logrApp.swift */; };
-		04CE50972856415300E04B10 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CE50962856415300E04B10 /* ContentView.swift */; };
 		04CE50992856415700E04B10 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04CE50982856415700E04B10 /* Assets.xcassets */; };
 		04CE509C2856415700E04B10 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04CE509B2856415700E04B10 /* Preview Assets.xcassets */; };
 		04CE50A62856415700E04B10 /* logrTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CE50A52856415700E04B10 /* logrTests.swift */; };
 		04CE50B02856415700E04B10 /* logrUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CE50AF2856415700E04B10 /* logrUITests.swift */; };
 		04CE50B22856415700E04B10 /* logrUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CE50B12856415700E04B10 /* logrUITestsLaunchTests.swift */; };
+		04CE50C02856427B00E04B10 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CE50BF2856427B00E04B10 /* ContentView.swift */; };
+		04CE50C22856441800E04B10 /* ExerciseList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CE50C12856441800E04B10 /* ExerciseList.swift */; };
+		04CE50C42856445F00E04B10 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CE50C32856445F00E04B10 /* ModelData.swift */; };
+		04CE50C6285644A500E04B10 /* exerciseData.json in Resources */ = {isa = PBXBuildFile; fileRef = 04CE50C5285644A500E04B10 /* exerciseData.json */; };
+		04CE50C8285644C300E04B10 /* Exercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CE50C7285644C300E04B10 /* Exercise.swift */; };
+		04CE50CA2856453700E04B10 /* ExerciseDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CE50C92856453700E04B10 /* ExerciseDetail.swift */; };
+		04CE50CC2856456A00E04B10 /* ExerciseRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CE50CB2856456A00E04B10 /* ExerciseRow.swift */; };
+		04CE50CE2856461800E04B10 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CE50CD2856461800E04B10 /* CircleImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +43,6 @@
 /* Begin PBXFileReference section */
 		04CE50912856415300E04B10 /* logr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = logr.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04CE50942856415300E04B10 /* logrApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = logrApp.swift; sourceTree = "<group>"; };
-		04CE50962856415300E04B10 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		04CE50982856415700E04B10 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04CE509B2856415700E04B10 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		04CE50A12856415700E04B10 /* logrTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = logrTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +50,14 @@
 		04CE50AB2856415700E04B10 /* logrUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = logrUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04CE50AF2856415700E04B10 /* logrUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = logrUITests.swift; sourceTree = "<group>"; };
 		04CE50B12856415700E04B10 /* logrUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = logrUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		04CE50BF2856427B00E04B10 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		04CE50C12856441800E04B10 /* ExerciseList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseList.swift; sourceTree = "<group>"; };
+		04CE50C32856445F00E04B10 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		04CE50C5285644A500E04B10 /* exerciseData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = exerciseData.json; sourceTree = "<group>"; };
+		04CE50C7285644C300E04B10 /* Exercise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercise.swift; sourceTree = "<group>"; };
+		04CE50C92856453700E04B10 /* ExerciseDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseDetail.swift; sourceTree = "<group>"; };
+		04CE50CB2856456A00E04B10 /* ExerciseRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseRow.swift; sourceTree = "<group>"; };
+		04CE50CD2856461800E04B10 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +109,9 @@
 			isa = PBXGroup;
 			children = (
 				04CE50942856415300E04B10 /* logrApp.swift */,
-				04CE50962856415300E04B10 /* ContentView.swift */,
+				04CE50CF2856481D00E04B10 /* Views */,
+				04CE50D02856483D00E04B10 /* Model */,
+				04CE50D12856484E00E04B10 /* Resources */,
 				04CE50982856415700E04B10 /* Assets.xcassets */,
 				04CE509A2856415700E04B10 /* Preview Content */,
 			);
@@ -125,6 +141,35 @@
 				04CE50B12856415700E04B10 /* logrUITestsLaunchTests.swift */,
 			);
 			path = logrUITests;
+			sourceTree = "<group>";
+		};
+		04CE50CF2856481D00E04B10 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				04CE50BF2856427B00E04B10 /* ContentView.swift */,
+				04CE50C12856441800E04B10 /* ExerciseList.swift */,
+				04CE50CB2856456A00E04B10 /* ExerciseRow.swift */,
+				04CE50C92856453700E04B10 /* ExerciseDetail.swift */,
+				04CE50CD2856461800E04B10 /* CircleImage.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		04CE50D02856483D00E04B10 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				04CE50C32856445F00E04B10 /* ModelData.swift */,
+				04CE50C7285644C300E04B10 /* Exercise.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		04CE50D12856484E00E04B10 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				04CE50C5285644A500E04B10 /* exerciseData.json */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,6 +277,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				04CE509C2856415700E04B10 /* Preview Assets.xcassets in Resources */,
+				04CE50C6285644A500E04B10 /* exerciseData.json in Resources */,
 				04CE50992856415700E04B10 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,8 +303,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04CE50972856415300E04B10 /* ContentView.swift in Sources */,
+				04CE50C8285644C300E04B10 /* Exercise.swift in Sources */,
+				04CE50CE2856461800E04B10 /* CircleImage.swift in Sources */,
+				04CE50CC2856456A00E04B10 /* ExerciseRow.swift in Sources */,
+				04CE50C02856427B00E04B10 /* ContentView.swift in Sources */,
+				04CE50CA2856453700E04B10 /* ExerciseDetail.swift in Sources */,
+				04CE50C42856445F00E04B10 /* ModelData.swift in Sources */,
 				04CE50952856415300E04B10 /* logrApp.swift in Sources */,
+				04CE50C22856441800E04B10 /* ExerciseList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
