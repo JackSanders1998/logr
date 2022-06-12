@@ -43,6 +43,6 @@ struct ExerciseDetail: View {
 
 struct ExerciseDetail_Previews: PreviewProvider {
     static var previews: some View {
-        ExerciseDetail(exercise: exercises[0])
+        ExerciseDetail(exercise: ModelData().exercises[0])
     }
 }
